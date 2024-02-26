@@ -1,0 +1,176 @@
+
+
+*{
+margin:0 auto;
+}
+
+
+body{
+height: 100%;
+box-sizing: border-box;
+background-image: 
+linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+}
+/*
+header{
+background-image: url('./img/celia-marca-pessoal-0073.jpg');
+background-size: 500px 700px;
+background-repeat: no-repeat;
+background-position-y:-100px;
+} */
+.primeira_secao{
+display: flex;
+}
+.one{
+background-image:url('./img/celia-marca-pessoal-0078.jpg');
+background-size: cover;
+background-position: left;
+width: 500px;
+height: 700px;
+margin-left: -40px ;
+}
+.two{
+background-color:linear-gradient(to bottom, #C2B4A7, #814a4a);
+margin-left: 0 auto;
+width: 900px;
+height: 700px;
+}
+.imagem_ebook{
+padding-left: 350px;
+padding-top: 50px;
+padding-bottom: 20px;
+width: 600px;
+height: auto;
+justify-content: center;
+}
+
+.div_1{
+padding: 25px 0 ;
+}
+
+.h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 600;
+text-align: center;
+padding-bottom: 10px ;
+padding-top: 20px;
+line-height: 60px;
+}
+
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 33px;
+font-weight: 600;
+text-align: center;
+line-height: 45px;
+padding: 30px 0 25px 0;
+
+
+}
+
+.h1_a{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 600;
+text-align: center;
+}
+.h1_b{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+font-weight: 600;
+text-align: center;
+padding-top: 40px;
+
+}
+.sevocedeseja{
+padding: 40px 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+line-height: 45px;
+
+}
+ul li{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 600;
+text-align:center;
+padding-bottom: 30px ;
+line-height: 25px;
+list-style: none;
+text-align: justify;
+}
+
+.h2_a{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+line-height: 40px;
+}
+
+.h1_c{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+line-height: 60px;
+padding-top: 30px;
+letter-spacing: 3px;
+
+}
+.quadrante_separacao_a{
+width: 100%;
+height: 8px;
+background-color: rgba(255, 235, 205, 0.5);
+
+}
+.quadrante_separacao_b{
+width: 100%px;
+height: 8px;
+background-color: rgba(255, 235, 205, 0.5);
+
+}
+
+.footer{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+line-height: 40px;
+background-color: azure;
+}
+.container{
+line-height: normal;
+margin-bottom : 10px ;
+padding-top:10px;
+height: 25px;
+width: 100%;
+background-color: rgba(255, 235, 205, 0.5);
+}
+.botao{
+
+justify-content: center;
+}
+  .meu-botao{background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 50px ;
+  margin-left:550px;
+  cursor: pointer;
+
+}
+a{
+font-weight: 500;
+color: #e5ece5;
+text-decoration: none;
+}
