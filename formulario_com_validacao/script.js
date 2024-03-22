@@ -8,11 +8,15 @@ const passwordConfirmation = document.getElementById('passwordConfirmation')
 form.addEventListener('submit',(event)=>{
 event.preventDefault();
 
-checkInputUsername();
-checkInputEmail();
-checkInputPassword();
-checkInputPasswordConfirmation();
+checkForm();
 })
+
+email.addEventListener('blur',() => {
+   checkInputEmail();
+})
+
+username.addEventListener('blur',() => {
+   checkInputUsername();})
 
 //PEGA O TEXTO INSERIDO NO CAMPO
 function checkInputUsername(){
@@ -59,6 +63,8 @@ const formItem = password.parentElement;
 
 
 function checkInputPasswordConfirmation(){
+//a const abaixo serve para se referir aos valores inseridos no mesmo mas 
+//sem o '.value' assim fica com o código mais limpo
 const passwordValue = password.value;
 const confirmationPasswordValue = passwordConfirmation.value;
 
@@ -73,6 +79,26 @@ const formItem = passwordConfirmation.parentElement;
    }
 
 
+
+
+function checkForm(){
+
+checkInputUsername();
+checkInputEmail();
+checkInputPassword();
+checkInputPasswordConfirmation();
+
+const formItems = form.querySelectorAll('form-content')
+
+const isValid = [...formItems].every((item) =>{
+
+return item.className === 'form-content'
+});
+if(isValid){
+
+alert('CADASTRADO COM SUCESSO')
+}
+}
 
 
 
