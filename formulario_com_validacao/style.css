@@ -55,9 +55,15 @@ border: 2px solid #dfdfdf;
 .form-content a{
 position: absolute;
 bottom: -8px;
-left:0
-/* visibility hidden; */
+left:0;
+visibility: hidden;
 }
+
+.form-content.error a{
+color: #ff3b25;
+visibility: visible;
+}
+
 .form button{
 background-color:#00c3ff ;
 color:#fff;
@@ -71,9 +77,6 @@ margin-top: 14px;
 }
 .form-content.error input{
 border-color: #ff3b25;
-}
-.form-content.error a{
-color: #ff3b25;
 }
 
 
