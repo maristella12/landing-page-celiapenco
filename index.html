@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Ebook</title>
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./src/assets/css/style.css">
 </head>
 
 <body>
@@ -58,12 +58,21 @@ Faça o download do eBook "Desvendando os Mistérios dos Relacionamentos Familia
 </section>
 
 <section class="lower">
-   <img class="imagem_ebook" src="./img/meu_ebook (2).png">
+   <img class="imagem_ebook" src="./src/assets/img/meu_ebook (2).png">
 </section>
 
-<section class="botao" >
+<section>
+   <p>Informe seu email para receber o ebook!</p>
+</section>
+
+<form onsubmit="handleEmailSubmission(event)">
+   <input type="email" id="emailInput" placeholder="Informe seu email" required>
+   <input type="submit" value="Submit">
+</form>
+
+<section class="botao" style="display: none;" id="downloadButton">
    <button class="meu-botao">
-      <a href="https://google.com"> Clique Aqui </a>  
+      <a href="https://google.com" target="_blank"> Clique Aqui </a>  
    </button>
  </section>
 
@@ -73,4 +82,6 @@ Faça o download do eBook "Desvendando os Mistérios dos Relacionamentos Familia
   Instagram - @draceliapenco  &nbsp; | Fixa Web Design |  &nbsp;  Copyrights - Todos os direitos reservados.</p>
 </footer>  
 </body>
+
+<script src="./src/assets/js/script.js"></script>
 </html>
